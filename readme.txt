@@ -2,7 +2,7 @@
 Contributors: Lukas Kröger
 Tags: webinar, weclapp, campaign, Kampagne 
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,7 +20,7 @@ Adds the possibility to display campaigns and allow automatic webinar registrati
 
 If a user is not in your contact, lead, or customer list in weclapp then then the participant will be added to your contacts (contact type can be set in the Plugin Settings under "Create new persons as").
 
-Participants trying to register repeatedly will be informed about their already existing participation.
+Participants trying to register repeatedly will be informed about their already existing participation. Such messages can be configured under the plugin settings.
 
 Here is a sample how the usage of the plugin looks like: https://www.weclapp.com/de/webinare/
 
@@ -35,15 +35,17 @@ Here is a sample how the usage of the plugin looks like: https://www.weclapp.com
 
 <h4> Example Usage </h4>
 
-To use this feature, just place the Shortcode [weclapp] into a chosen post. 
 
-By default webinar is the campaign type. If you like to use another campaign type, use the Shortcode parameter "type". It is also possible to disable the formular using the Shortcode parameter displayformular="No". 
+To use this feature, just place the Shortcode <code>[weclapp]</code> into a chosen post. 
+
+By default webinar is the campaign type. If you like to use another campaign type, use the Shortcode parameter "type". It is also possible to disable the formular using the Shortcode parameter <code> displayformular="No" </code>. 
 
 For instance, if you like to list all upcoming events without a formular:
 
-[weclapp type="Event" displayformular="No"]
+<code> [weclapp type="Event" displayformular="No"] </code>
 
 Use the following names for the campaign types:
+
 * Event
 * Webinar
 * Exposition 
@@ -56,15 +58,12 @@ Use the following names for the campaign types:
 
 == Installation ==
 
-<ul>
-<li>Install plugin under Plugins -> Add new.</li>
-<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
-<li>Setup your plugin (API data in weclapp can be found under the user settings)</li>
-<ul> 
-  <li>Enter your API Token</li>
-  <li>Enter your domain name e.g. your_domain_name.weclapp.com (without "https://")</li>
-</ul>
-</ul>
+1. Install plugin under Plugins -> Add new.
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Setup your plugin (API data in weclapp can be found under the user settings):
+  * Enter your API Token
+  * Enter your domain name e.g. your_domain_name.weclapp.com (without "https://")
+
 
 == Screenshots ==
 
