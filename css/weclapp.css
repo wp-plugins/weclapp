@@ -1,0 +1,142 @@
+.weclapp-success-message {
+	border: 1px solid #82BB25;
+	color: #82BB25;
+	padding: 10px;
+	text-align: center;
+}
+.weclapp-error-message {
+	border: 1px solid red;
+	color: red;
+	padding: 10px;
+	text-align: center;
+}
+.webinar-container {
+}
+
+.webinar-box {
+  position: relative;
+  background: #f5f5f5;
+  margin-bottom: 8px;
+}
+
+.webinar-head {
+  background: #f5f5f5;
+  cursor: pointer;
+  transition: 0.7s all ease-in-out;
+  padding: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.webinar-head:hover{
+  transition: 0.1s all ease-in-out;
+  background: #eee;
+}
+
+.webinar-box.active .webinar-head {
+  background: #eee;
+  }
+
+.webinar-box.active .webinar-head:hover {
+  background: #ddd;
+  }
+
+
+
+.webinar-checkbox {
+  width: 32px;
+  height: 32px;
+  /*position: relative;
+  top: 4px;
+  left: -6px;*/
+  background: url(../assets/icons/new_select_inactive_normal.png) right top no-repeat;
+  float: left;
+}
+.webinar-checkbox:hover {
+  background: url(../assets/icons/new_select_inactive_hover.png) right top no-repeat;
+}
+
+
+.webinar-checkbox.active {
+  background: url(../assets/icons/new_select_active_normal.png) right top no-repeat;
+
+}
+.webinar-checkbox.active:hover {
+  background: url(../assets/icons/new_select_active_normal.png) right top no-repeat;
+  opacity: 0.8;
+}
+
+.webinar-headline {
+  margin-left: 40px;
+}
+
+
+
+.webinar-headline p{
+  font-weight: 600;
+}
+
+.webinar-content {
+  padding: 0 8px 8px 8px;
+  display: none;
+  margin-left: 40px;
+}
+
+.webinar-content ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+  list-style-type: square;
+  margin-left: 32px;
+}
+
+.webinar-arrow {
+  height: 24px;
+  right: 8px;
+  top: 8px;
+  width: 24px;
+  position: absolute;
+   background: url(../assets/icons/action_arrowdown_normal.png) right top no-repeat;
+   opacity: 0.8;
+}
+.webinar-arrow:hover {
+   background: url(../assets/icons/action_arrowdown_normal.png) right top no-repeat;
+   opacity: 1;
+}
+.webinar-box.active .webinar-arrow {
+   background: url(../assets/icons/action_arrowup_normal.png) right top no-repeat;
+   opacity: 0.8;
+}
+.webinar-box.active .webinar-arrow:hover {
+   background: url(../assets/icons/action_arrowup_normal.png) right top no-repeat;
+   opacity: 1;
+}
+
+.webinar-content h3 {
+  padding-bottom: 4px;
+}
+
+.has-error .checkbox,.has-error .checkbox-inline,.has-error .control-label,.has-error .help-block,.has-error .radio,.has-error .radio-inline,.has-error.checkbox label,.has-error.checkbox-inline label,.has-error.radio label,.has-error.radio-inline label{
+	color:#a94442
+}
+
+.has-error .form-control{
+	border-color:#a94442;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075)
+}
+
+.has-error .form-control:focus{
+	border-color:#843534;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483
+}
+
+.has-error .input-group-addon{
+	color:#a94442;
+	background-color:#f2dede;
+	border-color:#a94442
+}
+
+.form-group{
+	margin-bottom:15px
+}

@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: weclapp\n"
+"POT-Creation-Date: 2015-07-23 14:43+0200\n"
+"PO-Revision-Date: 2015-07-23 14:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/wc-send.php:16
+msgid "Bitte geben Sie Ihren Namen ein"
+msgstr "Proszę wpisać swoje imię"
+
+#: includes/wc-send.php:20
+msgid "Bitte geben Sie Ihren Vor -und Nachnamen ein"
+msgstr "Proszę wprowadzić swoją wstępną i nazwisko"
+
+#: includes/wc-send.php:25
+msgid "Bitte geben Sie Ihre Email-Adresse ein"
+msgstr "Wpisz swój adres e-mail"
+
+#: includes/wc-send.php:28
+msgid "Bitte geben Sie eine gültige Email-Adresse ein"
+msgstr "Proszę wpisać aktualny adres e-mail"
+
+#: includes/wc-send.php:33
+msgid "Bitte geben Sie Ihre Telefonnummer ein"
+msgstr "Podaj swój numer telefonu"
+
+#: includes/wc-send.php:36
+msgid "Bitte geben Sie eine gültige Telefonnummer ein"
+msgstr "Proszę wpisać poprawny numer telefonu"
+
+#: includes/wc-send.php:43
+msgid "Bitte wählen Sie eine Kampagne"
+msgstr "Proszę wybrać kampanię"
+
+#: includes/wc-send.php:63
+msgid ""
+"Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet: "
+msgstr "Oni są pod adresem e-mail dla tej kampanii są już tutaj :  "
+
+#: includes/wc-send.php:183
+msgid ""
+"Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
+msgstr ""
+"Błąd 404 : Nieprawidłowa nazwa domeny . Prosimy o kontakt z administratorem"
+
+#: includes/wc-send.php:185
+msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster"
+msgstr ""
+"Błąd 401 : Nieprawidłowy API tokena . Prosimy o kontakt z administratorem"
+
+#: includes/wc-send.php:196
+msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster"
+msgstr "WordPress HTTP błąd. Prosimy o kontakt z administratorem"
+
+#: weclapp.php:52
+msgid "weclapp Einstellungen"
+msgstr "weclapp Ustawienia"
+
+#: weclapp.php:107
+msgid "Allgemeine Einstellungen"
+msgstr "Ustawienia Ogólne"
+
+#: weclapp.php:114
+msgid "Kampagnen Einstellungen"
+msgstr "Ustawienia kampanii"
+
+#: weclapp.php:121
+msgid "API Token *"
+msgstr "API Reklamowe *"
+
+#: weclapp.php:129
+msgid "Domain Name *"
+msgstr "Nazwa Domeny *"
+
+#: weclapp.php:136
+msgid "Neue Benutzer anlegen als"
+msgstr "Tworzenie nowego użytkownika jako"
+
+#: weclapp.php:143
+msgid "Benutzerdefinierte Erfolgsmeldung"
+msgstr "Sukces niestandardowy komunikat"
+
+#: weclapp.php:150
+msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
+msgstr "Niestandardowy komunikat , jeżeli nie jest w toku kampanii"
+
+#: weclapp.php:171
+msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
+msgstr "Podaj swój żeton weclapp API i nazwy domeny ."
+
+#: weclapp.php:298
+#, php-format
+msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
+msgstr "Czas trwania ok %1$s protokół | Następny termin : %2$s"
+
+#: weclapp.php:304
+msgid "Inhalt"
+msgstr "zawartość"
+
+#: weclapp.php:312
+msgid "Name"
+msgstr "nazwa"
+
+#: weclapp.php:320
+msgid "Telefonnummer"
+msgstr "numer telefonu"
+
+#: weclapp.php:324
+msgid "Anmelden"
+msgstr "zapisać się"
+
+#: weclapp.php:378
+msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
+msgstr "Zostałeś pomyślnie zalogowany do kampanii !"
+
+#: weclapp.php:386
+msgid ""
+"In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie später "
+"nochmal vorbei!"
+msgstr ""
+"W najbliższej przyszłości nie są jeszcze rozpoznane kampanie . Sprawdzaj na "
+"nowo !"
+
+#~ msgid "Notwendige Einstellungen"
+#~ msgstr "wymagane ustawienia"
+
+#~ msgid "Nicht notwendige Einstellungen"
+#~ msgstr "Ustawienia niepotrzebne"
+
+#~ msgid "API Token"
+#~ msgstr "API Reklamowe"
+
+#~ msgid "Domain Name"
+#~ msgstr "Nazwa Domeny"
+
+#~ msgid "Formular anzeigen"
+#~ msgstr "Zobacz forma"
+
+#~ msgid "Benutzerdefinierte Mitteilung, falls kein Webinar ansteht"
+#~ msgstr "Niestandardowy komunikat , jeśli nie ma czasu Webinar"
+
+#~ msgid "Hier können Sie bei Bedarf eigene Meldungen setzen."
+#~ msgstr "Tutaj można umieścić własne wiadomości , jeśli to konieczne ."
+
+#~ msgid "Bitte wählen Sie ein Webinar"
+#~ msgstr "Proszę wybrać seminarium"
+
+#~ msgid ""
+#~ "Sie sind unter Ihrer E-Mail-Adresse für dieses Webinar bereits "
+#~ "angemeldet: "
+#~ msgstr "Oni są pod adresem e-mail do tego seminarium są już tutaj :"
+
+#~ msgid "Sie wurden erfolgreich am Webinar angemeldet!"
+#~ msgstr "Zostałeś pomyślnie zalogowany do seminarium !"
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Webinare angesetzt. Schauen Sie "
+#~ "später nochmal vorbei!"
+#~ msgstr ""
+#~ "W najbliższej przyszłości nie są jeszcze rozpoznane seminaria . Sprawdzaj "
+#~ "na nowo !"
+
+#~ msgid "Wordpress HTTP error. Bitte kontaktieren Sie den Webmaster"
+#~ msgstr "WordPress HTTP błąd. Prosimy o kontakt z administratorem"
