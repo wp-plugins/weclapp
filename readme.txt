@@ -37,9 +37,11 @@ To use this feature, just place the Shortcode [weclappWebinar] into a chosen pos
 
 For an impression visit https://www.weclapp.com/de/webinare/
 
-1. webinar-screenshot.png
+1. Plugin settings
 
-2. webinar-screenshot2.png
+2. List of all campaigns with type webinar with one opened description
+
+3. List of all campaigns with type webinar including a formular
 
 == Changelog ==
 
