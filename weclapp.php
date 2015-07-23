@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: weclapp 
-Plugin URI: https://de.wordpress.org/plugins/weclapp/
+Plugin URI: 
 Version: 1.0
 Author: <a href="http://www.weclapp.com"> weclapp GmbH </a>
 Text Domain: weclapp
@@ -354,7 +354,7 @@ function weclapp_get_option( $name )
 				update_option( "domain_name", $optionValue );
 				break;
 			case "success_message":
-				$optionValue = "Sie wurden erfolgreich am Webinar angemeldet!";
+				$optionValue = __("Sie wurden erfolgreich am Webinar angemeldet!","weclapp");
 				update_option( "success_message", $optionValue );
 				break;
 			case "contact_placement":
@@ -362,7 +362,7 @@ function weclapp_get_option( $name )
 				update_option( "contact_placement", $optionValue );
 				break;
 			case "nowebinars":
-				$optionValue = "In der nächsten Zeit sind noch keine Webinare angesetzt. Schauen Sie später nochmal vorbei!";
+				$optionValue = __("In der nächsten Zeit sind noch keine Webinare angesetzt. Schauen Sie später nochmal vorbei!", "weclapp");
 				update_option( "nowebinars", $optionValue );
 		}		
 	}

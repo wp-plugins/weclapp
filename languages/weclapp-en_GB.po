@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-22 12:35+0200\n"
-"PO-Revision-Date: 2015-07-22 12:39+0200\n"
+"POT-Creation-Date: 2015-07-23 10:02+0200\n"
+"PO-Revision-Date: 2015-07-23 10:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -46,11 +46,13 @@ msgid "Bitte wählen Sie ein Webinar"
 msgstr "Please select a webinar"
 
 #: includes/wc-send.php:63
-msgid "Sie sind unter Ihrer E-Mail-Adresse für dieses Webinar bereits angemeldet: "
+msgid ""
+"Sie sind unter Ihrer E-Mail-Adresse für dieses Webinar bereits angemeldet: "
 msgstr "You are already registered for this webinar at your email address"
 
 #: includes/wc-send.php:183
-msgid "Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
+msgid ""
+"Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
 msgstr "Error 404: Invalid domain name. Please contact webmaster!"
 
 #: includes/wc-send.php:185
@@ -126,6 +128,17 @@ msgstr "Phone number"
 msgid "Anmelden"
 msgstr "Register"
 
+#: weclapp.php:357
+msgid "Sie wurden erfolgreich am Webinar angemeldet!"
+msgstr "You have been successfully logged on to the webinar!"
+
+#: weclapp.php:365
+msgid ""
+"In der nächsten Zeit sind noch keine Webinare angesetzt. Schauen Sie später "
+"nochmal vorbei!"
+msgstr ""
+"Currently there are no upcoming webinars available. Please come back later!"
+
 #~ msgid "Unbekannte Personen platzieren als"
 #~ msgstr "Unknown persons place as"
 
@@ -159,10 +172,12 @@ msgstr "Register"
 #~ msgid "Bitte wählen Sie ein Webinar!"
 #~ msgstr "Please select a webinar!"
 
-#~ msgid "Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster!"
+#~ msgid ""
+#~ "Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster!"
 #~ msgstr "Error 404: Invalid domain name. Please contact webmaster!"
 
-#~ msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster!"
+#~ msgid ""
+#~ "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster!"
 #~ msgstr "Error 401: Invalid API Token. Please contact webmaster!"
 
 #~ msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster!"
