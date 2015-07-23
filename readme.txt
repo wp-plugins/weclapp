@@ -37,6 +37,10 @@ To use this feature, just place the Shortcode [weclappWebinar] into a chosen pos
 
 For an impression visit https://www.weclapp.com/de/webinare/
 
+1. webinar-screenshot.png
+
+2. webinar-screenshot2.png
+
 == Changelog ==
 
 1.0 Initial version with campaign support only
