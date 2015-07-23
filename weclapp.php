@@ -237,7 +237,7 @@ function weclapp_api( $atts )
 {
 	 extract( shortcode_atts( array(
 		'type' => "WEBINAR",
-		'displayformular' => "Yes"
+		'displayformular' => 1
 	), $atts));
 	switch ( $type) {
 		case "Event":
@@ -290,7 +290,7 @@ function weclapp_api( $atts )
 			$content .= '<div class=webinar-box>';
 				$content .= '<div class="webinar-head" >';
 
-					$content .= '<div class="webinar-checkbox"'. ( ( 1 == get_option( 'display_form' )) ? '' : 'style="display: none"' ) . '><input type="hidden" name="checkbox_' . $type . '" data-weclapp-campaign-id="' . $val['id'] . '" /></div>';
+					$content .= '<div class="webinar-checkbox"'. ( ( true == $displayformular) ? '' : 'style="display: none"' ) . '><input type="hidden" name="checkbox_' . $type . '" data-weclapp-campaign-id="' . $val['id'] . '" /></div>';
 				
 					$content .= '<div class="webinar-headline">';
 						$content .= '<h3 style="margin: 0px !important;padding: 0px !important;">' . $val['campaignName'] . '</h3>';
@@ -306,7 +306,7 @@ function weclapp_api( $atts )
 		}
 		$content .= '</div>';
 		//input formular, submit buttons calls registerUser in weclapp.js (AJAX-call)
-		if ( 'Yes' == $displayformular) {
+		if ( true == $displayformular) {
 			$content .= '
 				<div id="name-group_"' . $type . '" class="form-group">
 					<label for="weclapp-name">' . __("Name", "weclapp") . '</label> 

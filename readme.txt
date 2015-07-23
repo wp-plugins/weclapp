@@ -38,11 +38,11 @@ Here is a sample how the usage of the plugin looks like: https://www.weclapp.com
 
 To use this feature, just place the Shortcode <code>[weclapp]</code> into a chosen post. 
 
-By default webinar is the campaign type. If you like to use another campaign type, use the Shortcode parameter "type". It is also possible to disable the formular using the Shortcode parameter <code> displayformular="No" </code>. 
+By default webinar is the campaign type. If you like to use another campaign type, use the Shortcode parameter <code>type</code>. It is also possible to disable the formular using the Shortcode parameter <code>displayformular=0 </code>. 
 
 For instance, if you like to list all upcoming events without a formular:
 
-<code> [weclapp type="Event" displayformular="No"] </code>
+<code> [weclapp type="Event" displayformular=0] </code>
 
 Use the following names for the campaign types:
 
