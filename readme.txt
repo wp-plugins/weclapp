@@ -1,4 +1,4 @@
-﻿=== Plugin Name ===
+﻿=== weclapp ===
 Contributors: Lukas Kröger
 Tags: webinar, weclapp, campaign, Kampagne 
 Requires at least: 4.0
@@ -11,19 +11,31 @@ This plugin integrates weclapp functionality into wordpress CMS
 
 == Description ==
 
-Add Campagin registration to support
-Automatic webinar registration. It integrates the following two elements into your webpage:
+<h4> Campaign Management </h4>
 
+Adds the possibility to display campaigns and allow automatic webinar registration. It integrates the following two elements into your webpage:
 
 * a list upcoming webinars scheduled in your weclapp account under CRM -> campaigns (campaign type webinar)
-* a formular enabling visitors of your website to participate in one or more webinars with one single registration
-(this feature can be deactivated under Settings -> weclapp)
+* a display of a submit form enabling visitors of your website to participate in one or more webinars with one single registration (this feature can be deactivated under Settings -> weclapp in WordPress)
 
-If a user is not in your contact, lead, or customer list, he will be added to your contacts (contact type can be set in the Plugin Settings 
-under "Create new persons as").
+If a user is not in your contact, lead, or customer list in weclapp then then the participant will be added to your contacts (contact type can be set in the Plugin Settings under "Create new persons as").
+
 Participants trying to register repeatedly will be informed about their already existing participation.
-To use this feature, just place the Shortcode [weclappWebinar] into a chosen post.
 
+Here is a sample how the usage of the plugin looks like: https://www.weclapp.com/de/webinare/
+
+<h4> More functionality will be added in the future </h4>
+
+<h4> Supported languages: </h4>
+
+* German
+* English
+* Turkish
+* Polsky
+
+<h4> Example Usage </h4>
+
+To use this feature, just place the Shortcode [weclappWebinar] into a chosen post.
 
 == Installation ==
 
