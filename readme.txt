@@ -35,8 +35,6 @@ Here is a sample how the usage of the plugin looks like: https://www.weclapp.com
 
 <h4> Example Usage </h4>
 
-To use this feature, just place the Shortcode [weclappWebinar] into a chosen post.
-
 To use this feature, just place the Shortcode [weclapp] into a chosen post. 
 
 By default webinar is the campaign type. If you like to use another campaign type, use the Shortcode parameter "type". It is also possible to disable the formular using the Shortcode parameter displayformular="No". 
@@ -58,11 +56,15 @@ Use the following names for the campaign types:
 
 == Installation ==
 
-1. Upload plugin under Plugins -> Add new.
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Setup your plugin (can be found in weclapp under account name in the top right corner -> Settings)
-3.1 Enter your API Token
-3.2 Enter your domain name e.g. your_domain_name.weclapp.com (without "https://")
+<ul>
+<li>Install plugin under Plugins -> Add new.</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+<li>Setup your plugin (API data in weclapp can be found under the user settings)</li>
+<ul> 
+  <li>Enter your API Token</li>
+  <li>Enter your domain name e.g. your_domain_name.weclapp.com (without "https://")</li>
+</ul>
+</ul>
 
 == Screenshots ==
 
