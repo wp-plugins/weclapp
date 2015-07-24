@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-24 11:17+0200\n"
-"PO-Revision-Date: 2015-07-24 11:17+0200\n"
+"POT-Creation-Date: 2015-07-24 12:49+0200\n"
+"PO-Revision-Date: 2015-07-24 12:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: tr\n"
@@ -50,16 +50,16 @@ msgid ""
 "Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet: "
 msgstr "Onlar bu kampanya bir hesap için e-posta adresi altında:  "
 
-#: includes/wc-send.php:183
+#: includes/wc-send.php:186
 msgid ""
 "Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
 msgstr "Hata 404: Geçersiz alan adı. Webmasteriniz ile irtibata geçiniz"
 
-#: includes/wc-send.php:185
+#: includes/wc-send.php:188
 msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster"
 msgstr "Hata 401: Geçersiz API simgesi. Webmasteriniz ile irtibata geçiniz"
 
-#: includes/wc-send.php:196
+#: includes/wc-send.php:199
 msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster"
 msgstr "WordPress HTTP hatası . Webmasteriniz ile irtibata geçiniz"
 
@@ -103,68 +103,80 @@ msgstr ""
 msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
 msgstr "Kendi weclapp API simgesi ve etki alanı adınızı giriniz."
 
-#: weclapp.php:250
+#: weclapp.php:207
+msgid "Kontakt"
+msgstr "Temas"
+
+#: weclapp.php:208
+msgid "Interessent"
+msgstr "Aday müşteri"
+
+#: weclapp.php:209
+msgid "Kunde"
+msgstr "Müşteri"
+
+#: weclapp.php:253
 msgid "Veranstaltung"
 msgstr "Toplantı"
 
-#: weclapp.php:254 weclapp.php:285
+#: weclapp.php:257 weclapp.php:288
 msgid "Webinar"
 msgstr "Webinar"
 
-#: weclapp.php:258
+#: weclapp.php:261
 msgid "Ausstellung"
 msgstr "Sergi"
 
-#: weclapp.php:262
+#: weclapp.php:265
 msgid "Öffentlichkeitsarbeit"
 msgstr "Halkla ilişkiler"
 
-#: weclapp.php:266
+#: weclapp.php:269
 msgid "Anzeige"
 msgstr "Reklam"
 
-#: weclapp.php:270
+#: weclapp.php:273
 msgid "Postwurfsendung"
 msgstr "Toplu posta"
 
-#: weclapp.php:274
+#: weclapp.php:277
 msgid "E-Mail"
 msgstr "E-Posta"
 
-#: weclapp.php:278
+#: weclapp.php:281
 msgid "Telemarketing"
 msgstr "Telemarketing"
 
-#: weclapp.php:282
+#: weclapp.php:285
 msgid "Andere"
 msgstr "Diğer"
 
-#: weclapp.php:313
+#: weclapp.php:316
 #, php-format
 msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
 msgstr "Süre yaklaşık %1$s dk | Sonraki tarih : %2$s Uhrdere"
 
-#: weclapp.php:319
+#: weclapp.php:322
 msgid "Inhalt"
 msgstr "Içerik"
 
-#: weclapp.php:327
+#: weclapp.php:330
 msgid "Name"
 msgstr "Isim"
 
-#: weclapp.php:335
+#: weclapp.php:338
 msgid "Telefonnummer"
 msgstr "Telefon numarası"
 
-#: weclapp.php:339
+#: weclapp.php:342
 msgid "Anmelden"
 msgstr "Kayıt ol"
 
-#: weclapp.php:393
+#: weclapp.php:396
 msgid "Sie wurden erfolgreich an der Kampagne angemeldet"
 msgstr "Başarıyla kampanyaya katılımınız kayıt edilmiştir"
 
-#: weclapp.php:401
+#: weclapp.php:404
 #, php-format
 msgid ""
 "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "

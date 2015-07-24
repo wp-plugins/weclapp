@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-24 11:17+0200\n"
-"PO-Revision-Date: 2015-07-24 11:17+0200\n"
+"POT-Creation-Date: 2015-07-24 12:46+0200\n"
+"PO-Revision-Date: 2015-07-24 12:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -50,16 +50,16 @@ msgid ""
 "Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet: "
 msgstr "You are already registered for this campaign at your email address:  "
 
-#: includes/wc-send.php:183
+#: includes/wc-send.php:186
 msgid ""
 "Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
 msgstr "Error 404: Invalid domain name. Please contact webmaster!"
 
-#: includes/wc-send.php:185
+#: includes/wc-send.php:188
 msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster"
 msgstr "Error 401: Invalid API Token. Please contact webmaster!"
 
-#: includes/wc-send.php:196
+#: includes/wc-send.php:199
 msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster"
 msgstr "Wordpress HTTP error. Please contact webmaster!"
 
@@ -104,68 +104,80 @@ msgstr ""
 msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
 msgstr "Please enter your weclapp API token as well as your domain name."
 
-#: weclapp.php:250
+#: weclapp.php:207
+msgid "Kontakt"
+msgstr "contact"
+
+#: weclapp.php:208
+msgid "Interessent"
+msgstr "lead"
+
+#: weclapp.php:209
+msgid "Kunde"
+msgstr "customer"
+
+#: weclapp.php:253
 msgid "Veranstaltung"
 msgstr "event"
 
-#: weclapp.php:254 weclapp.php:285
+#: weclapp.php:257 weclapp.php:288
 msgid "Webinar"
 msgstr "webinar"
 
-#: weclapp.php:258
+#: weclapp.php:261
 msgid "Ausstellung"
 msgstr "exposition"
 
-#: weclapp.php:262
+#: weclapp.php:265
 msgid "Öffentlichkeitsarbeit"
 msgstr "publicrelation"
 
-#: weclapp.php:266
+#: weclapp.php:269
 msgid "Anzeige"
 msgstr "advertisement"
 
-#: weclapp.php:270
+#: weclapp.php:273
 msgid "Postwurfsendung"
 msgstr "bulkmail"
 
-#: weclapp.php:274
+#: weclapp.php:277
 msgid "E-Mail"
 msgstr "email"
 
-#: weclapp.php:278
+#: weclapp.php:281
 msgid "Telemarketing"
 msgstr "telemarketing"
 
-#: weclapp.php:282
+#: weclapp.php:285
 msgid "Andere"
 msgstr "other"
 
-#: weclapp.php:313
+#: weclapp.php:316
 #, php-format
 msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
 msgstr "Duration approximately %1$s min. | Next date %2$s o'clock"
 
-#: weclapp.php:319
+#: weclapp.php:322
 msgid "Inhalt"
 msgstr "Topic"
 
-#: weclapp.php:327
+#: weclapp.php:330
 msgid "Name"
 msgstr "Name"
 
-#: weclapp.php:335
+#: weclapp.php:338
 msgid "Telefonnummer"
 msgstr "Phone number"
 
-#: weclapp.php:339
+#: weclapp.php:342
 msgid "Anmelden"
 msgstr "Register"
 
-#: weclapp.php:393
+#: weclapp.php:396
 msgid "Sie wurden erfolgreich an der Kampagne angemeldet"
 msgstr "You have been successfully logged on to the campaign"
 
-#: weclapp.php:401
+#: weclapp.php:404
 #, php-format
 msgid ""
 "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
