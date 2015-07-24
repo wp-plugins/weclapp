@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-23 14:42+0200\n"
-"PO-Revision-Date: 2015-07-23 14:42+0200\n"
+"POT-Creation-Date: 2015-07-24 10:01+0200\n"
+"PO-Revision-Date: 2015-07-24 10:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -92,44 +92,97 @@ msgid "Benutzerdefinierte Erfolgsmeldung"
 msgstr "Custom success message"
 
 #: weclapp.php:150
-msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
-msgstr "Custom message if no pending campaign"
+#, php-format
+msgid ""
+"Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht (%s ist der "
+"Platzhalter für den Kampagnentyp)"
+msgstr ""
+"Custom message if no campaign is pending (%s is the placeholder for the "
+"campaign type)"
 
 #: weclapp.php:171
 msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
 msgstr "Please enter your weclapp API token as well as your domain name."
 
-#: weclapp.php:298
+#: weclapp.php:248
+msgid "Veranstaltung"
+msgstr "event"
+
+#: weclapp.php:251 weclapp.php:275
+msgid "Webinar"
+msgstr "webinar"
+
+#: weclapp.php:254
+msgid "Ausstellung"
+msgstr "exposition"
+
+#: weclapp.php:257
+msgid "Öffentlichkeitsarbeit"
+msgstr "publicrelation"
+
+#: weclapp.php:260
+msgid "Anzeige"
+msgstr "advertisement"
+
+#: weclapp.php:263
+msgid "Postwurfsendung"
+msgstr "bulkmail"
+
+#: weclapp.php:266
+msgid "E-Mail"
+msgstr "email"
+
+#: weclapp.php:269
+msgid "Telemarketing"
+msgstr "telemarketing"
+
+#: weclapp.php:272
+msgid "Andere"
+msgstr "other"
+
+#: weclapp.php:303
 #, php-format
 msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
 msgstr "Duration approximately %1$s min. | Next date %2$s o'clock"
 
-#: weclapp.php:304
+#: weclapp.php:309
 msgid "Inhalt"
 msgstr "Topic"
 
-#: weclapp.php:312
+#: weclapp.php:317
 msgid "Name"
 msgstr "Name"
 
-#: weclapp.php:320
+#: weclapp.php:325
 msgid "Telefonnummer"
 msgstr "Phone number"
 
-#: weclapp.php:324
+#: weclapp.php:329
 msgid "Anmelden"
 msgstr "Register"
 
-#: weclapp.php:378
+#: weclapp.php:383
 msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
 msgstr "You have been successfully logged on to the campaign!"
 
-#: weclapp.php:386
+#: weclapp.php:391
+#, php-format
 msgid ""
-"In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie später "
-"nochmal vorbei!"
+"In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
+"Sie später nochmal vorbei!"
 msgstr ""
-"Currently there are no upcoming campaigns available. Please come back later!"
+"Currently there are no upcoming campaigns of type %s available. Please come "
+"back later!"
+
+#~ msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
+#~ msgstr "Custom message if no pending campaign"
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie "
+#~ "später nochmal vorbei!"
+#~ msgstr ""
+#~ "Currently there are no upcoming campaigns available. Please come back "
+#~ "later!"
 
 #~ msgid "Notwendige Einstellungen"
 #~ msgstr "Neccessary settings"

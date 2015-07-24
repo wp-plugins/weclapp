@@ -147,7 +147,7 @@ function page_init()
 	); 
 	add_settings_field(
 		'nowebinars_message', // ID
-		__('Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht','weclapp'), // Title 
+		__('Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht (%s ist der Platzhalter für den Kampagnentyp)','weclapp'), // Title 
 		'nowebinars_callback', // Callback
 		'weclapp-settings', // Page
 		'campaign_section' // Section           
@@ -235,40 +235,44 @@ function weclapp_display_campaign_til()
 **/
 function weclapp_api( $atts ) 
 {
-	 extract( shortcode_atts( array(
+	//extract shortcode parameters and set default values
+	extract( shortcode_atts( array(
 		'type' => "WEBINAR",
 		'displayformular' => 1
 	), $atts));
+	//get uppercase campaign type for API.
+	$uCampaignType = strtoupper($type);
+	//readout campaign type for translation
 	switch ( $type) {
 		case "Event":
-			$uCampaignType = "EVENT";
+			$campaignType = __( "Veranstaltung", "weclapp" );
 			break;
 		case "Webinar":
-			$uCampaignType = "WEBINAR";
+			$campaignType = __( "Webinar", "weclapp" );
 			break;
 		case "Expostion": 
-			$uCampaignType = "EXPOSITION";
+			$campaignType = __( "Ausstellung", "weclapp" );
 			break;
 		case "Publicrelation":
-			$uCampaignType = "PUBLICRELATION";
+			$campaignType = __( "Öffentlichkeitsarbeit", "weclapp" );
 			break;
 		case "Advertisement":
-			$uCampaignType = "ADVERTISEMENT";
+			$campaignType = __( "Anzeige", "weclapp" );
 			break;
 		case "Bulkmail":
-			$uCampaignType = "BULKMAIL";
+			$campaignType = __( "Postwurfsendung", "weclapp" );
 			break;
 		case "Email":
-			$uCampaignType = "EMAIL";
+			$campaignType = __( "E-Mail", "weclapp" );
 			break;
 		case "Telemarketing":
-			$uCampaignType = "TELEMARKETING";
+			$campaignType = __( "Telemarketing", "weclapp" );
 			break;
 		case "Other":
-			$uCampaignType = "OTHER";
+			$campaignType = __( "Andere", "weclapp" );
 			break;
 		default:
-			$uCampaignType = "WEBINAR";
+			$campaignType = __( "Webinar", "weclapp" );
 	}
 	date_default_timezone_set( 'Europe/Berlin' );
 	$args = array(
@@ -281,8 +285,9 @@ function weclapp_api( $atts )
 	$result = json_decode( $result, true );
 	$result = $result['result'];
 	//if there are no upcoming webinars, display a custom webinar message or the default one, respectively
-	if ( empty( $result )) {		
-		$content = weclapp_get_option( "nowebinars" );
+	if ( empty( $result )) {
+		//placeholder for campaigntype in nowebinar-string
+		$content = sprintf(weclapp_get_option( "nowebinars" ),  $campaignType);
 	} else {
 		$content = '<div class="webinar-container">';
 		//display a webinar box for each upcoming webinar
@@ -383,7 +388,7 @@ function weclapp_get_option( $name )
 				update_option( "contact_placement", $optionValue );
 				break;
 			case "nowebinars":
-				$optionValue = __("In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie später nochmal vorbei!", "weclapp");
+				$optionValue = __("In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen Sie später nochmal vorbei!", "weclapp");
 				update_option( "nowebinars", $optionValue );
 		}		
 	}

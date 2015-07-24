@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-23 14:43+0200\n"
-"PO-Revision-Date: 2015-07-23 14:44+0200\n"
+"POT-Creation-Date: 2015-07-24 10:04+0200\n"
+"PO-Revision-Date: 2015-07-24 10:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
@@ -94,45 +94,99 @@ msgid "Benutzerdefinierte Erfolgsmeldung"
 msgstr "Sukces niestandardowy komunikat"
 
 #: weclapp.php:150
-msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
-msgstr "Niestandardowy komunikat , jeżeli nie jest w toku kampanii"
+#, php-format
+msgid ""
+"Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht (%s ist der "
+"Platzhalter für den Kampagnentyp)"
+msgstr ""
+"Niestandardowy komunikat , jeżeli nie toczy się kampania ( %s jestsymbolem "
+"zastępczym dla rodzaju kampanii )"
 
 #: weclapp.php:171
 msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
 msgstr "Podaj swój żeton weclapp API i nazwy domeny ."
 
-#: weclapp.php:298
+#: weclapp.php:248
+msgid "Veranstaltung"
+msgstr "wydarzenie"
+
+#: weclapp.php:251 weclapp.php:275
+#, fuzzy
+msgid "Webinar"
+msgstr "webinar"
+
+#: weclapp.php:254
+msgid "Ausstellung"
+msgstr "wystawa"
+
+#: weclapp.php:257
+msgid "Öffentlichkeitsarbeit"
+msgstr "Publiczne pracy"
+
+#: weclapp.php:260
+msgid "Anzeige"
+msgstr "inserat"
+
+#: weclapp.php:263
+msgid "Postwurfsendung"
+msgstr "masowiec przesyłka"
+
+#: weclapp.php:266
+#, fuzzy
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: weclapp.php:269
+msgid "Telemarketing"
+msgstr "telemarketing"
+
+#: weclapp.php:272
+msgid "Andere"
+msgstr "inny"
+
+#: weclapp.php:303
 #, php-format
 msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
 msgstr "Czas trwania ok %1$s protokół | Następny termin : %2$s"
 
-#: weclapp.php:304
+#: weclapp.php:309
 msgid "Inhalt"
 msgstr "zawartość"
 
-#: weclapp.php:312
+#: weclapp.php:317
 msgid "Name"
 msgstr "nazwa"
 
-#: weclapp.php:320
+#: weclapp.php:325
 msgid "Telefonnummer"
 msgstr "numer telefonu"
 
-#: weclapp.php:324
+#: weclapp.php:329
 msgid "Anmelden"
 msgstr "zapisać się"
 
-#: weclapp.php:378
+#: weclapp.php:383
 msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
 msgstr "Zostałeś pomyślnie zalogowany do kampanii !"
 
-#: weclapp.php:386
+#: weclapp.php:391
+#, php-format
 msgid ""
-"In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie später "
-"nochmal vorbei!"
+"In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
+"Sie später nochmal vorbei!"
 msgstr ""
-"W najbliższej przyszłości nie są jeszcze rozpoznane kampanie . Sprawdzaj na "
-"nowo !"
+"W niedalekiej przyszłości ma kampanie typu% s nie są rozpoznawane. Sprawdzaj "
+"na nowo!"
+
+#~ msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
+#~ msgstr "Niestandardowy komunikat , jeżeli nie jest w toku kampanii"
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Kampagnen angesetzt. Schauen Sie "
+#~ "später nochmal vorbei!"
+#~ msgstr ""
+#~ "W najbliższej przyszłości nie są jeszcze rozpoznane kampanie . Sprawdzaj "
+#~ "na nowo !"
 
 #~ msgid "Notwendige Einstellungen"
 #~ msgstr "wymagane ustawienia"
