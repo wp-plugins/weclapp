@@ -89,6 +89,9 @@
 			}
 		}
 	}
+	/**
+	*sanitize input with different methods
+	**/
 	function weclapp_clean_input( $input ) 
 	{
 		$input = trim( $input );

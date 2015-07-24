@@ -171,6 +171,9 @@ function print_general_info()
 	_e('Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein.', 'weclapp');
 }
 
+/**
+*callback function for section require, even if no text should be displayed
+**/
 function print_campaign_section_info()
 {
 }
