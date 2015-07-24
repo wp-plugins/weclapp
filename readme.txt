@@ -1,6 +1,6 @@
 ﻿=== weclapp ===
 Contributors: Lukas Kröger
-Tags: webinar, weclapp, campaign, Kampagne 
+Tags: webinar, weclapp, campaign, Kampagne, Cloud, ERP, CRM
 Requires at least: 4.0
 Tested up to: 4.2.3
 Stable tag: 1.1
@@ -38,9 +38,9 @@ Here is a sample how the usage of the plugin looks like: https://www.weclapp.com
 * French
 * Spanish
 * Turkish
-* Polsky
+* Polish
 
-If you encounter translation mistakes, feel free to inform us at the following email-address: support@weclapp.com
+If you encounter translation mistakes, feel free to inform us at the following email-address: support[@]weclapp.com
 
 <h4> Example Usage </h4>
 
@@ -69,7 +69,7 @@ Multiple formulars on one page (with different campaign types respectively) can 
 
 == Installation ==
 
-1. Install plugin under Plugins -> Add new.
+1. Download and install plugin under Plugins -> Add new.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Setup your plugin (API data in weclapp can be found under the user settings):
   * Enter your API Token
