@@ -1,6 +1,6 @@
 ﻿=== weclapp ===
 Contributors: Lukas Kröger
-Tags: webinar, weclapp, campaign, Kampagne, Cloud, ERP, CRM
+Tags: webinar, weclapp, campaign, cloud, ERP, CRM, ticketing, helpdesk
 Requires at least: 4.0
 Tested up to: 4.2.3
 Stable tag: 1.1
