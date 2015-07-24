@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: weclapp\n"
+"POT-Creation-Date: 2015-07-24 11:17+0200\n"
+"PO-Revision-Date: 2015-07-24 11:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/wc-send.php:16
+msgid "Bitte geben Sie Ihren Namen ein"
+msgstr "Lütfen adınızı giriniz"
+
+#: includes/wc-send.php:20
+msgid "Bitte geben Sie Ihren Vor -und Nachnamen ein"
+msgstr "Önceden soyadınız giriniz"
+
+#: includes/wc-send.php:25
+msgid "Bitte geben Sie Ihre Email-Adresse ein"
+msgstr "Lütfen E-Posta adresinizi giriniz"
+
+#: includes/wc-send.php:28
+msgid "Bitte geben Sie eine gültige Email-Adresse ein"
+msgstr "Geçerli bir E-Posta adresi giriniz"
+
+#: includes/wc-send.php:33
+msgid "Bitte geben Sie Ihre Telefonnummer ein"
+msgstr "Telefon numaranızı giriniz"
+
+#: includes/wc-send.php:36
+msgid "Bitte geben Sie eine gültige Telefonnummer ein"
+msgstr "Lütfen geçerli bir telefon numarası giriniz"
+
+#: includes/wc-send.php:43
+msgid "Bitte wählen Sie eine Kampagne"
+msgstr "Bir kampanya seçiniz"
+
+#: includes/wc-send.php:63
+msgid ""
+"Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet: "
+msgstr "Onlar bu kampanya bir hesap için e-posta adresi altında:  "
+
+#: includes/wc-send.php:183
+msgid ""
+"Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
+msgstr "Hata 404: Geçersiz alan adı. Webmasteriniz ile irtibata geçiniz"
+
+#: includes/wc-send.php:185
+msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster"
+msgstr "Hata 401: Geçersiz API simgesi. Webmasteriniz ile irtibata geçiniz"
+
+#: includes/wc-send.php:196
+msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster"
+msgstr "WordPress HTTP hatası . Webmasteriniz ile irtibata geçiniz"
+
+#: weclapp.php:52
+msgid "weclapp Einstellungen"
+msgstr "weclapp ayarları"
+
+#: weclapp.php:107
+msgid "Allgemeine Einstellungen"
+msgstr "Genel ayarlar"
+
+#: weclapp.php:114
+msgid "Kampagnen Einstellungen"
+msgstr "Kampanya ayarları"
+
+#: weclapp.php:121
+msgid "API Token *"
+msgstr "API simgesi *"
+
+#: weclapp.php:129
+msgid "Domain Name *"
+msgstr "Alanadı *"
+
+#: weclapp.php:136
+msgid "Neue Benutzer anlegen als"
+msgstr "Yeni bir kullanıcı nasil oluşturulsun"
+
+#: weclapp.php:143
+msgid "Benutzerdefinierte Erfolgsmeldung"
+msgstr "Özel başarı mesajı"
+
+#: weclapp.php:150
+#, php-format
+msgid ""
+"Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht (%s ist der "
+"Platzhalter für den Kampagnentyp)"
+msgstr ""
+"Özel mesaj yok kampanya beklemede ise ( %s kampanya türü için yer tutucudur )"
+
+#: weclapp.php:171
+msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
+msgstr "Kendi weclapp API simgesi ve etki alanı adınızı giriniz."
+
+#: weclapp.php:250
+msgid "Veranstaltung"
+msgstr "Toplantı"
+
+#: weclapp.php:254 weclapp.php:285
+msgid "Webinar"
+msgstr "Webinar"
+
+#: weclapp.php:258
+msgid "Ausstellung"
+msgstr "Sergi"
+
+#: weclapp.php:262
+msgid "Öffentlichkeitsarbeit"
+msgstr "Halkla ilişkiler"
+
+#: weclapp.php:266
+msgid "Anzeige"
+msgstr "Reklam"
+
+#: weclapp.php:270
+msgid "Postwurfsendung"
+msgstr "Toplu posta"
+
+#: weclapp.php:274
+msgid "E-Mail"
+msgstr "E-Posta"
+
+#: weclapp.php:278
+msgid "Telemarketing"
+msgstr "Telemarketing"
+
+#: weclapp.php:282
+msgid "Andere"
+msgstr "Diğer"
+
+#: weclapp.php:313
+#, php-format
+msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
+msgstr "Süre yaklaşık %1$s dk | Sonraki tarih : %2$s Uhrdere"
+
+#: weclapp.php:319
+msgid "Inhalt"
+msgstr "Içerik"
+
+#: weclapp.php:327
+msgid "Name"
+msgstr "Isim"
+
+#: weclapp.php:335
+msgid "Telefonnummer"
+msgstr "Telefon numarası"
+
+#: weclapp.php:339
+msgid "Anmelden"
+msgstr "Kayıt ol"
+
+#: weclapp.php:393
+msgid "Sie wurden erfolgreich an der Kampagne angemeldet"
+msgstr "Başarıyla kampanyaya katılımınız kayıt edilmiştir"
+
+#: weclapp.php:401
+#, php-format
+msgid ""
+"In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
+"Sie später nochmal vorbei"
+msgstr ""
+"Yakın gelecekte %s türü hiçbir kampanya mevcut degil. Sonraki bir tarih'de "
+"lütfen tekrar deneyin."
+
+#~ msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
+#~ msgstr "Başarıyla kampanyaya katılımınız kayıt edilmiştir"
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. "
+#~ "Schauen Sie später nochmal vorbei!"
+#~ msgstr ""
+#~ "Yakın gelecekte %s türü hiçbir kampanya mevcut degil. Sonraki bir "
+#~ "tarih'de lütfen tekrar deneyin."

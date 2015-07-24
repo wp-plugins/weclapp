@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: weclapp\n"
+"POT-Creation-Date: 2015-07-24 11:17+0200\n"
+"PO-Revision-Date: 2015-07-24 11:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/wc-send.php:16
+msgid "Bitte geben Sie Ihren Namen ein"
+msgstr "S'il vous plaît entrer votre nom"
+
+#: includes/wc-send.php:20
+msgid "Bitte geben Sie Ihren Vor -und Nachnamen ein"
+msgstr "S'il vous plaît entrer votre pré- et prénom"
+
+#: includes/wc-send.php:25
+msgid "Bitte geben Sie Ihre Email-Adresse ein"
+msgstr "S'il vous plaît entrez votre adresse e -mail"
+
+#: includes/wc-send.php:28
+msgid "Bitte geben Sie eine gültige Email-Adresse ein"
+msgstr "S'il vous plaît entrer une adresse email valide"
+
+#: includes/wc-send.php:33
+msgid "Bitte geben Sie Ihre Telefonnummer ein"
+msgstr "S'il vous plaît entrer votre numéro de téléphone"
+
+#: includes/wc-send.php:36
+msgid "Bitte geben Sie eine gültige Telefonnummer ein"
+msgstr "S'il vous plaît entrez un numéro de téléphone valide"
+
+#: includes/wc-send.php:43
+msgid "Bitte wählen Sie eine Kampagne"
+msgstr "S'il vous plaît sélectionner une campagne"
+
+#: includes/wc-send.php:63
+msgid ""
+"Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet: "
+msgstr ""
+"Sie sind unter Ihrer E-Mail-Adresse für diese Kampagne bereits angemeldet:  "
+
+#: includes/wc-send.php:183
+msgid ""
+"Fehler 404: Ungültiger Domain-Name. Bitte kontaktieren Sie den Webmaster"
+msgstr ""
+"Erreur 404 : Invalid nom de domaine . S'il vous plaît contacter le webmestre "
+
+#: includes/wc-send.php:185
+msgid "Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster"
+msgstr ""
+"Fehler 401: Ungültiger API Token. Bitte kontaktieren Sie den Webmaster  "
+
+#: includes/wc-send.php:196
+msgid "Wordpress HTTP Fehler. Bitte kontaktieren Sie den Webmaster"
+msgstr "WordPress erreur HTTP . S'il vous plaît contacter le webmestre"
+
+#: weclapp.php:52
+msgid "weclapp Einstellungen"
+msgstr "Réglages weclapp"
+
+#: weclapp.php:107
+msgid "Allgemeine Einstellungen"
+msgstr "Paramètres généraux"
+
+#: weclapp.php:114
+msgid "Kampagnen Einstellungen"
+msgstr "Paramètres de campagne"
+
+#: weclapp.php:121
+msgid "API Token *"
+msgstr "API jeton *"
+
+#: weclapp.php:129
+msgid "Domain Name *"
+msgstr "Nom de domaine *"
+
+#: weclapp.php:136
+msgid "Neue Benutzer anlegen als"
+msgstr "Créez un nouvel utilisateur que"
+
+#: weclapp.php:143
+msgid "Benutzerdefinierte Erfolgsmeldung"
+msgstr "Message de réussite personnalisé"
+
+#: weclapp.php:150
+#, php-format
+msgid ""
+"Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht (%s ist der "
+"Platzhalter für den Kampagnentyp)"
+msgstr ""
+"Message personnalisé si aucune campagne est en cours ( %s est l' espace "
+"réservé pour le type de campagne )"
+
+#: weclapp.php:171
+msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
+msgstr ""
+"S'il vous plaît entrer votre clé API de weclapp et votre nom de domaine ."
+
+#: weclapp.php:250
+msgid "Veranstaltung"
+msgstr "événement"
+
+#: weclapp.php:254 weclapp.php:285
+msgid "Webinar"
+msgstr "webinaire"
+
+#: weclapp.php:258
+msgid "Ausstellung"
+msgstr "exposition"
+
+#: weclapp.php:262
+msgid "Öffentlichkeitsarbeit"
+msgstr "relations publiques"
+
+#: weclapp.php:266
+msgid "Anzeige"
+msgstr "publicité"
+
+#: weclapp.php:270
+msgid "Postwurfsendung"
+msgstr "mailing de masse"
+
+#: weclapp.php:274
+msgid "E-Mail"
+msgstr "E -mail"
+
+#: weclapp.php:278
+msgid "Telemarketing"
+msgstr "télémarketing"
+
+#: weclapp.php:282
+msgid "Andere"
+msgstr "autre"
+
+#: weclapp.php:313
+#, php-format
+msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
+msgstr "Durée environ %1$s min | Prochaine date: horloge %2$s"
+
+#: weclapp.php:319
+msgid "Inhalt"
+msgstr "teneur"
+
+#: weclapp.php:327
+msgid "Name"
+msgstr "nom"
+
+#: weclapp.php:335
+msgid "Telefonnummer"
+msgstr "numéro de téléphone"
+
+#: weclapp.php:339
+msgid "Anmelden"
+msgstr "Inscription"
+
+#: weclapp.php:393
+msgid "Sie wurden erfolgreich an der Kampagne angemeldet"
+msgstr "Vous avez été connecté avec succès à la campagne "
+
+#: weclapp.php:401
+#, php-format
+msgid ""
+"In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
+"Sie später nochmal vorbei"
+msgstr ""
+"Dans un proche avenir aucun des campagnes de type %s ne sont pas reconnus . "
+"Revenez encore une fois"
+
+#~ msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
+#~ msgstr "Vous avez été connecté avec succès à la campagne "
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. "
+#~ "Schauen Sie später nochmal vorbei!"
+#~ msgstr ""
+#~ "Dans un proche avenir aucun des campagnes de type %s ne sont pas "
+#~ "reconnus . Revenez encore une fois"

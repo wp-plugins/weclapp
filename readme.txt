@@ -35,8 +35,12 @@ Here is a sample how the usage of the plugin looks like: https://www.weclapp.com
 
 * German
 * English
+* French
+* Spanish
 * Turkish
 * Polsky
+
+If you encounter translation mistakes, feel free to inform us at the following email-address: support@weclapp.com
 
 <h4> Example Usage </h4>
 

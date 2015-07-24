@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: weclapp\n"
-"POT-Creation-Date: 2015-07-24 10:01+0200\n"
-"PO-Revision-Date: 2015-07-24 10:14+0200\n"
+"POT-Creation-Date: 2015-07-24 11:17+0200\n"
+"PO-Revision-Date: 2015-07-24 11:17+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -104,75 +104,85 @@ msgstr ""
 msgid "Bitte geben Sie Ihren weclapp API Token sowie Ihren Domain-Namen ein."
 msgstr "Please enter your weclapp API token as well as your domain name."
 
-#: weclapp.php:248
+#: weclapp.php:250
 msgid "Veranstaltung"
 msgstr "event"
 
-#: weclapp.php:251 weclapp.php:275
+#: weclapp.php:254 weclapp.php:285
 msgid "Webinar"
 msgstr "webinar"
 
-#: weclapp.php:254
+#: weclapp.php:258
 msgid "Ausstellung"
 msgstr "exposition"
 
-#: weclapp.php:257
+#: weclapp.php:262
 msgid "Öffentlichkeitsarbeit"
 msgstr "publicrelation"
 
-#: weclapp.php:260
+#: weclapp.php:266
 msgid "Anzeige"
 msgstr "advertisement"
 
-#: weclapp.php:263
+#: weclapp.php:270
 msgid "Postwurfsendung"
 msgstr "bulkmail"
 
-#: weclapp.php:266
+#: weclapp.php:274
 msgid "E-Mail"
 msgstr "email"
 
-#: weclapp.php:269
+#: weclapp.php:278
 msgid "Telemarketing"
 msgstr "telemarketing"
 
-#: weclapp.php:272
+#: weclapp.php:282
 msgid "Andere"
 msgstr "other"
 
-#: weclapp.php:303
+#: weclapp.php:313
 #, php-format
 msgid "Dauer ca. %1$s Min. | Nächster Termin: %2$s Uhr"
 msgstr "Duration approximately %1$s min. | Next date %2$s o'clock"
 
-#: weclapp.php:309
+#: weclapp.php:319
 msgid "Inhalt"
 msgstr "Topic"
 
-#: weclapp.php:317
+#: weclapp.php:327
 msgid "Name"
 msgstr "Name"
 
-#: weclapp.php:325
+#: weclapp.php:335
 msgid "Telefonnummer"
 msgstr "Phone number"
 
-#: weclapp.php:329
+#: weclapp.php:339
 msgid "Anmelden"
 msgstr "Register"
 
-#: weclapp.php:383
-msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
-msgstr "You have been successfully logged on to the campaign!"
+#: weclapp.php:393
+msgid "Sie wurden erfolgreich an der Kampagne angemeldet"
+msgstr "You have been successfully logged on to the campaign"
 
-#: weclapp.php:391
+#: weclapp.php:401
 #, php-format
 msgid ""
 "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen "
-"Sie später nochmal vorbei!"
+"Sie später nochmal vorbei"
 msgstr ""
 "Currently there are no upcoming campaigns of type %s available. Please come "
-"back later!"
+"back later"
+
+#~ msgid "Sie wurden erfolgreich an der Kampagne angemeldet!"
+#~ msgstr "You have been successfully logged on to the campaign!"
+
+#~ msgid ""
+#~ "In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. "
+#~ "Schauen Sie später nochmal vorbei!"
+#~ msgstr ""
+#~ "Currently there are no upcoming campaigns of type %s available. Please "
+#~ "come back later!"
 
 #~ msgid "Benutzerdefinierte Mitteilung, falls keine Kampagne ansteht"
 #~ msgstr "Custom message if no pending campaign"

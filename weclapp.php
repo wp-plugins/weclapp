@@ -243,32 +243,42 @@ function weclapp_api( $atts )
 	//get uppercase campaign type for API.
 	$uCampaignType = strtoupper($type);
 	//readout campaign type for translation
+	$type = trim($type);
 	switch ( $type) {
 		case "Event":
+		case "event":
 			$campaignType = __( "Veranstaltung", "weclapp" );
 			break;
 		case "Webinar":
+		case "webinar":
 			$campaignType = __( "Webinar", "weclapp" );
 			break;
-		case "Expostion": 
+		case "Expostion":
+		case "exposition":
 			$campaignType = __( "Ausstellung", "weclapp" );
 			break;
 		case "Publicrelation":
+		case "publicrelation":
 			$campaignType = __( "Öffentlichkeitsarbeit", "weclapp" );
 			break;
 		case "Advertisement":
+		case "advertisement":
 			$campaignType = __( "Anzeige", "weclapp" );
 			break;
 		case "Bulkmail":
+		case "bulkmail":
 			$campaignType = __( "Postwurfsendung", "weclapp" );
 			break;
 		case "Email":
+		case "email":
 			$campaignType = __( "E-Mail", "weclapp" );
 			break;
 		case "Telemarketing":
+		case "telemarketing":
 			$campaignType = __( "Telemarketing", "weclapp" );
 			break;
 		case "Other":
+		case "other":
 			$campaignType = __( "Andere", "weclapp" );
 			break;
 		default:
@@ -380,7 +390,7 @@ function weclapp_get_option( $name )
 				update_option( "domain_name", $optionValue );
 				break;
 			case "success_message":
-				$optionValue = __("Sie wurden erfolgreich an der Kampagne angemeldet!","weclapp");
+				$optionValue = __("Sie wurden erfolgreich an der Kampagne angemeldet","weclapp");
 				update_option( "success_message", $optionValue );
 				break;
 			case "contact_placement":
@@ -388,7 +398,7 @@ function weclapp_get_option( $name )
 				update_option( "contact_placement", $optionValue );
 				break;
 			case "nowebinars":
-				$optionValue = __("In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen Sie später nochmal vorbei!", "weclapp");
+				$optionValue = __("In der nächsten Zeit sind noch keine Kampagnen vom Typ %s angesetzt. Schauen Sie später nochmal vorbei", "weclapp");
 				update_option( "nowebinars", $optionValue );
 		}		
 	}
